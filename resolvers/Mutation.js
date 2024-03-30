@@ -54,7 +54,7 @@ exports.Mutation = {
                     ...product,
                     categoryId: null,
                 };
-            else return product;
+            return product;
         });
         return true;
     },
